@@ -1,0 +1,5 @@
+---
+- name: CodeBlocks Settings
+  include_tasks: "setting/{{ item }}.yml"
+  loop:
+    - Autosave
